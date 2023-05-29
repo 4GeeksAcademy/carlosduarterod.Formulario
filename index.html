@@ -73,37 +73,42 @@
                     <input type="text" class="form-control" id="inputCity">
                 </div>
                 <!-- Tarjetas -->
-                <div class="col-3">
-                    <div class="form-check">
+                <div class="d-flex justify-content-between">
+                    <div class="col-3">
                         <p>We accept:</p>
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            <i class="fa-brands fa-cc-mastercard fa-lg" style="color: #656667;"></i>   
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            <i class="fa-brands fa-cc-visa fa-lg" style="color: #727479;"></i>
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            <i class="fa-brands fa-cc-paypal fa-lg" style="color: #6e6e6e;"></i>
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            <i class="fa-brands fa-cc-apple-pay fa-lg" style="color: #6f7276;"></i>
-                        </label>
-                    </div>
-                </div>               
-                    <div class=" col-6 mb-3 d-flex justify-content-end">
-                      <label for="message-text" class="col-form-label">Message:</label>
-                      <textarea class="form-control" id="message-text"></textarea>
-                    </div>
+                        <div class="d-flex justify-content-start justify-content-around bg-secondary p-2 rounded">
+                            <div class="form-check">                         
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    <i class="fa-brands fa-cc-mastercard" style="color: #ffffff;"></i>   
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    <i class="fa-brands fa-cc-visa fa-lg" style="color: #ffffff;"></i>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    <i class="fa-brands fa-cc-paypal fa-lg" style="color: #ffffff;"></i>
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    <i class="fa-brands fa-cc-apple-pay fa-lg" style="color: #ffffff;"></i>
+                                </label>
+                            </div>
+                        </div>         
+                    </div>               
+                        <div class=" col-6 mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                </div>
+                    <!-- Fin de tarjetas y mensaje -->
 
                 <!-- Pie de pagina -->
                     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
